@@ -11,7 +11,7 @@ function App() {
     <ApolloProvider client={client}>
       <Navbar />
       <main>
-        <Outlet /> {/* Renders child routes */}
+        <Outlet /> 
       </main>
     </ApolloProvider>
   );

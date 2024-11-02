@@ -7,8 +7,8 @@ import {
   Col
 } from 'react-bootstrap';
 import { useQuery, useMutation } from '@apollo/client';
-import { GET_ME } from "../graphql/queries.js"; // Adjust the import based on your file structure
-import { REMOVE_BOOK } from '../graphql/mutations.js'; // Adjust the import based on your file structure
+import { GET_ME } from "../graphql/queries.js"; 
+import { REMOVE_BOOK } from '../graphql/mutations.js'; 
 import Auth from '../utils/auth';
 import { removeBookId } from '../utils/localStorage';
 
@@ -51,7 +51,7 @@ const SavedBooks = () => {
     return <h2>LOADING...</h2>;
   }
 
-  const userData = data.me; // Assuming the query returns a "me" object with savedBooks
+  const userData = data.me; 
 
   return (
     <>

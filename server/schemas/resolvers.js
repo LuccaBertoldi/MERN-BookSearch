@@ -1,4 +1,4 @@
-const User = require('../models/User'); // Adjust path based on your project structure
+const User = require('../models/User'); 
 const { signToken } = require('../utils/auth');
 
 const resolvers = {
